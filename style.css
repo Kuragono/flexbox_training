@@ -1,0 +1,89 @@
+.parentcontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    border: 4px green solid;
+    width: 950px;
+    height: 500px;
+    padding: 16px;
+    gap: 16px;
+}
+
+.childcontainer {
+    flex: 1;
+    display: flex;
+}
+
+#firstchild, #lastchild {  
+    background-color: lightblue;
+    border: 4px blue solid;
+}
+
+.one, .two, .three {
+    flex: 1;
+}
+
+.one {
+    background-color: lightsalmon;
+    border: 4px rgb(168, 110, 4) solid;
+    margin: 8px;
+    display: flex;
+}
+
+.three {
+    background-color: plum;
+}
+
+.baby {
+    flex: 1;
+    background-color: lightpink;
+    border: 4px red solid;
+    margin: 4px;
+}
+
+#twoone {
+    background-color: lightcoral;
+    border: 4px red solid;
+    margin-right: 4px;
+} 
+
+#twotwo {
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+} 
+
+.last {
+    flex: 1;
+    border: 4px red solid;
+}
+
+#first {
+    background-color: lightcoral;
+    margin-bottom: 4px;
+}
+
+#second {
+    background-color: lightcoral;
+    margin-top: 4px;
+}
+
+#innerone, #innertwo {
+    background-color: lightsalmon;
+    border: 4px rgb(168, 110, 4) solid;
+    margin: 4px;
+}
+
+#outerone, #outertwo {
+    flex: 2;
+    border: 4px purple solid;
+    margin: 4px;
+}
+
+#outerone {
+    margin-right: none;
+}
+
+#outertwo {
+    margin-left: none;
+}
